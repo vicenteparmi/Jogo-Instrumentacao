@@ -1,0 +1,38 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Manim rendered media (videos, images, texts)
+media/
+
+# Ignore Manim output files
+*.mp4
+*.mov
+*.avi
+*.gif
+*.svg
+*.png
+*.jpg
+*.jpeg
+
+# Ignore Manim config/output
+*.log
+*.json
+*.cfg
+*.out
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment files
+.env
+.venv/
+venv/
+
+# Ignore macOS system files
+.DS_Store
